@@ -1,0 +1,13 @@
+# The reference page and handoff name the project. This repo is public: never commit them.
+reference/
+
+# Project data never goes in the repo.
+data.json
+data-pack/
+*.zip
+
+# Secrets and local tooling
+.env
+.env.*
+.vercel/
+node_modules/
